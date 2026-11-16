@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="rolesmod"
+version="1.0.0"
+displayName="RolesMod (DruzyaMod)"
+description='''
+Мод для своих: выбор роли, шуточные задачи, ашкудика и Osiris D3.
+'''
+
+[[dependencies.rolesmod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.rolesmod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
